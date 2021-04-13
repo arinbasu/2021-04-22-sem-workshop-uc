@@ -101,12 +101,10 @@ the pitch.
 {% include lc/intro.html %}
 {% endif %}
 
-{% comment %}
-AUDIENCE
 
-Explain who your audience is.  (In particular, tell readers if the
-workshop is only open to people from a particular institution.
-{% endcomment %}
+AUDIENCE
+This is a Carpentries style workshop to teach Structural Equation Modelling aimed at researchers and students at the University of Canterbury but we are open to the others as well. You will need to have some experience with data analysis; some expericence with R is desirable but not needed.
+
 {% if site.carpentry == "swc" %}
 {% include swc/who.html %}
 {% elsif site.carpentry == "dc" %}

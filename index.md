@@ -17,7 +17,7 @@ instructor: ["Arindam Basu", "Alice Hyun Min Kim"] # boxed, comma-separated list
 helper: ["No one yet"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["arin_basu@pm.me"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes: http://bit.ly/sem-workshop-uc  # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
-eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+eventbrite:  151581240571         # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
@@ -87,12 +87,17 @@ displayed if the 'eventbrite' field in the header is not set.
 
 <h2 id="general">General Information</h2>
 
-{% comment %}
+
 INTRODUCTION
 
-Edit the general explanatory paragraph below if you want to change
-the pitch.
-{% endcomment %}
+We are offering a two-day 9 AM - 12:00 PM workshop on introductory structural equation modelling workshop at UC using R and lavaan. You will learn the following:
+
+- How to use tidyverse in R
+- Sewall Wright's path tracing rules
+- Setting up Structural Equation models (SEM) using [Dagitty](https://www.dagitty.net)
+- Using Lavaan for SEM
+- Assessing different types of SEM
+
 {% if site.carpentry == "swc" %}
 {% include swc/intro.html %}
 {% elsif site.carpentry == "dc" %}
@@ -103,7 +108,7 @@ the pitch.
 
 
 AUDIENCE
-This is a Carpentries style workshop to teach Structural Equation Modelling aimed at researchers and students at the University of Canterbury but we are open to the others as well. You will need to have some experience with data analysis; some expericence with R is desirable but not needed.
+This is going to be a Carpentries style workshop to teach Structural Equation Modelling aimed at researchers and students at the University of Canterbury but we are open to the others as well. You will need to have some experience with data analysis; some expericence with R is desirable but not needed.
 
 {% if site.carpentry == "swc" %}
 {% include swc/who.html %}

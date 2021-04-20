@@ -360,9 +360,8 @@ of code below the Schedule `<h2>` header below with
   To participate in this workshop,
   you will need access to the software described below.
   In addition, you will need an up-to-date web browser. 
-  Please follow the instructions in the following webpage:
-  
-  <a href="https://hackmd.io/@arinbasu1/sem_setup">Select this link to visit the requirements and setup page</a>
+  Please follow the instructions and
+  <a href="https://hackmd.io/@arinbasu1/sem_setup">select this link to visit the requirements and setup page</a>
    
 </p>
 

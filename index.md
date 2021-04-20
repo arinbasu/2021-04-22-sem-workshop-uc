@@ -362,8 +362,7 @@ of code below the Schedule `<h2>` header below with
   In addition, you will need an up-to-date web browser. 
   Please follow the instructions in the following webpage:
   
-  [Select this link to visit the requirements and setup page](https://hackmd.io/@arinbasu1/sem_setup)
- 
-  
+  <a href="https://hackmd.io/@arinbasu1/sem_setup">Select this link to visit the requirements and setup page</a>
+   
 </p>
 

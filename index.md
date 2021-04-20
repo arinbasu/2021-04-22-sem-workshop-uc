@@ -98,6 +98,8 @@ We are offering a two-day 9 AM - 12:00 PM workshop on introductory structural eq
 - Using Lavaan for SEM
 - Assessing different types of SEM
 
+This is going to be a data carpentry style workshop. For more details, see below as to what is a data carpentry workshop.
+
 {% if site.carpentry == "swc" %}
 {% include swc/intro.html %}
 {% elsif site.carpentry == "dc" %}
@@ -108,7 +110,7 @@ We are offering a two-day 9 AM - 12:00 PM workshop on introductory structural eq
 
 
 AUDIENCE
-This is going to be a Carpentries style workshop to teach Structural Equation Modelling aimed at researchers and students at the University of Canterbury but we are open to the others as well. You will need to have some experience with data analysis; some expericence with R is desirable but not needed.
+This SEM workshop is aimed at researchers and students at the University of Canterbury but we are open to the others as well. You will need to have some experience with data analysis; some expericence with R is desirable but not needed.
 
 {% if site.carpentry == "swc" %}
 {% include swc/who.html %}
@@ -197,16 +199,10 @@ special instructions.
   <strong>Accessibility:</strong>
 {% if online == "false" %}
   We are committed to making this workshop
-  accessible to everybody. The workshop organizers have checked that:
-</p>
-<ul>
-  <li>The room is wheelchair / scooter accessible.</li>
-  <li>Accessible restrooms are available.</li>
-</ul>
+  accessible to everybody. 
+
 <p>
-  Materials will be provided in advance of the workshop and
-  large-print handouts are available if needed by notifying the
-  organizers in advance.  If we can help making learning easier for
+   If we can help making learning easier for
   you (e.g. sign-language interpreters, lactation facilities) please
   get in touch (using contact details below) and we will
   attempt to provide them.
@@ -317,8 +313,8 @@ SURVEYS - DO NOT EDIT SURVEY LINKS
 {% endcomment %}
 <h2 id="surveys">Surveys</h2>
 <p>Please be sure to complete these surveys before and after the workshop.</p>
-<p><a href="{{ site.pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
+<p><a href="https://forms.gle/DLYUEt7q3SxrhnJF9">Pre-workshop Survey</a></p>
+<p><a href="https://forms.gle/dbeFsCAjAGrX3vRe6">Post-workshop Survey</a></p>
 
 <hr/>
 

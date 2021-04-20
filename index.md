@@ -362,5 +362,7 @@ of code below the Schedule `<h2>` header below with
   In addition, you will need an up-to-date web browser. 
   Please follow the instructions in the following website
   
+  {% include dc/lavaan.md %}
+  
 </p>
 
